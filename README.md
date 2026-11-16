@@ -1,3 +1,10 @@
+<!-- embryo-brand -->
+# Embryo Local AI
+
+**Embryo Local AI** is Embryo-Zero's fork of [LocalAI](https://github.com/mudler/LocalAI), made by Embryo Zero Backyard Data Center Corporation. Our changes are on the `embryo` branch; see [EMBRYO.md](EMBRYO.md), [LEGAL.md](LEGAL.md) and [CHANGES-EMBRYO.md](CHANGES-EMBRYO.md). The original project's README follows unchanged, with its authors' credits.
+
+---
+
 <p align="center">
   <img src="docs/static/images/readme/hero.jpg" alt="LocalAI: your own AI, on your own hardware. Agents, documents and every kind of model, for you and your team. The LocalAI llama mascot wears sunglasses." width="900">
 </p>
