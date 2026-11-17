@@ -91,7 +91,7 @@ jobs:
         # toolchains this job never uses; remove them before anything installs.
         run: sh scripts/ci/free-runner-disk.sh
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           # prepare.sh accepts Go 1.26.x only and runs with GOTOOLCHAIN=local.
           go-version: '1.26.x'
@@ -140,7 +140,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           go-version: '1.26.x'
           cache: false
@@ -193,7 +193,7 @@ jobs:
         # toolchains this job never uses; remove them before anything installs.
         run: sh scripts/ci/free-runner-disk.sh
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           # prepare.sh accepts Go 1.26.x only and runs with GOTOOLCHAIN=local.
           go-version: '1.26.x'

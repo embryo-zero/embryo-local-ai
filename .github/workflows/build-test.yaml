@@ -67,7 +67,7 @@ jobs:
         # toolchains before Go is installed.
         run: sh scripts/ci/free-runner-disk.sh
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: 1.25
       # A PR builds only the host target. The three-platform cross-compile
